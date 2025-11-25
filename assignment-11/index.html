@@ -4,15 +4,14 @@
     <title>css</title>
     <style>
         body {
-            background-color: rgb (240,246,246);
+            background-color: rgb (240, 246, 246);
         }
         .container {
             display: flex;
             justify-content: space-evenly;
-           background-color:rgb( 245,246,246);
-           flex-wrap: nowrap;
+            background-color: rgb(245, 246, 246);
+            flex-wrap: nowrap;
         }
-
         .item {
             height: 380px;
             width: 300px;
@@ -21,298 +20,243 @@
             border-radius: 10px;
             background-color: white;
         }
-
         .item:hover {
             border: 1px 1px 0px 0px;
         }
-          .main-img {
+        .main-img {
             border-radius: 10px 10px 0px 0px;
             margin-bottom: 5px;
-          }
-
-          .project-heading {
+        }
+        .project-heading {
             font-size: 25px;
             font-weight: 600;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        
-          }
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .sub-container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .course-name {
+            background-color: rgb(179, 227, 246);
+            padding: 4px;
+            border-radius: 4px;
+        }
+        .project-description {
+            font-size: 14px;
+            color: rgb(105, 105, 105);
+        }
+        .tech-stack {
+            display: flex;
+            margin: 2px;
+        }
+        .tech {
+            background-color: rgb(220, 220, 220);
+            padding: 4px 20px;
+            border-radius: 20px;
+            margin-right: 10px;
+            font-size: 12px;
+        }
+        .project-duration {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .project-duration-info {
+            font: size 12px;
 
-.sub-container {
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
-.course-name {
-    background-color: rgb(179, 227,246);
-    padding: 4px;
-    border-radius: 4px;
-
-}
-
-.project-description {
-   font-size: 14px;
-   color: rgb( 105,105,105); 
-}
-
-    .tech-stack {
-        display: flex;
-        margin: 2px;
-    }
-
-    .tech {
-       background-color: rgb( 220,220,220);
-        padding: 4px 20px;
-   border-radius: 20px;
-   margin-right: 10px;
-  font-size: 12px;
-    }
-    .project-duration {
-      display:flex ;
-      justify-content: space-between;  
-      margin-top: 10px;
-    }
-    .project-duration-info {
-       font: size 12px; 
-
-    }
-    .user-profile-img {
-        border-radius: 50px;
-        margin-right: 5px;
-    }
-    .project-duration-subinfo {
-       display: flex;
-       align-items: center;  
-    }
-    .calendar-img {
-        margin-right: 5px ;
-        border: gray;
-    }
-
-    .hr-line {
-        margin:  10px 0px ;
-    }
-    .additional {
-        display: flex;
-       justify-content: space-between;
-       align-items: center;
-    }
-       .additional-sub-info {
-        display: flex;
-        align-items: center;
-
-       }
-       .additional-sun-info-2 {
-        color:rgb(64,127,191) ;
-        font-weight: 500;
-        font-size:14px ;
-        cursor: pointer;
-       }
-       
-       
-
-
-
+        }
+        .user-profile-img {
+            border-radius: 50px;
+            margin-right: 5px;
+        }
+        .project-duration-subinfo {
+            display: flex;
+            align-items: center;
+        }
+        .calendar-img {
+            margin-right: 5px;
+            border: gray;
+        }
+        .hr-line {
+            margin: 10px 0px;
+        }
+        .additional {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .additional-sub-info {
+            display: flex;
+            align-items: center;
+        }
+        .additional-sun-info-2 {
+            color: rgb(64, 127, 191);
+            font-weight: 500;
+            font-size: 14px;
+            cursor: pointer;
+        }
     </style>
 </head>
-
 <body>
     <div class="container">
         <div class="item">
-            <img src="./../rtc-homepage.png" width="300px"  class="main-img"/>
-
+            <img src="./../rtc-homepage.png" width="300px" class="main-img" />
             <div class="sub-container">
-            <span class="project-heading">Road To Code </span>
-        <br/>
-            <span class="course-name">Internship cohort program 6.0</span>
-            <p class="project-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo modi quaerat, Libero voluptatum dolorem earum aut?
-            </p>
-
-            <div  class="tech-stack"> 
-                <span class="tech">HTML</span>
-                <span class="tech">CSS</span>
-                <span class="tech">GitHub</span>
-            </div>
-            <div class="project-duration">
-                <div class="project-duration-subinfo"> 
-                    <img src="./../calendar-icon.svg" height="15px" class="calendar-img"/>
-                    <span class="project-duration-info">2024 - Apr 2024</span> 
+                <span class="project-heading">Road To Code </span>
+                <br />
+                <span class="course-name">Internship cohort program 6.0</span>
+                <p class="project-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo modi quaerat, Libero
+                    voluptatum dolorem earum aut?
+                </p>
+                <div class="tech-stack">
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                    <span class="tech">GitHub</span>
                 </div>
-                <div  class="project-duration-subinfo">
-                    <img src="./../vaibhavi hole.png" height="20px"  class="user-profile-img"/>
-                   <span class="project-duration-info">Vaibhavi Hole</span>
+                <div class="project-duration">
+                    <div class="project-duration-subinfo">
+                        <img src="./../calendar-icon.svg" height="15px" class="calendar-img" />
+                        <span class="project-duration-info">2024 - Apr 2024</span>
+                    </div>
+                    <div class="project-duration-subinfo">
+                        <img src="./../vaibhavi hole.png" height="20px" class="user-profile-img" />
+                        <span class="project-duration-info">Vaibhavi Hole</span>
+                    </div>
                 </div>
-            </div>
-
-            <hr class="hr-line"/>
-
-            <div class="additional">
-             <div class="additional-sub-info">
-            <img src="./../deafult-clap-logo.svg"  height="20px" style="margin-right: 5px;"/>
-            <span style="margin-right: 5px;">123</span>
-            
-            <img src="./../comment-story.svg" height="25"  style="margin: right 5px;" />
-          <span style="margin-right: 10px;">4</span>
-
-          <img src="./../share-logo.svg"  height="20px" />
-             </div>
-
-            <div class="nh">
-                <span class="additional-sun-info-2">See more</span>
-            
-            </div>
-            </div>
-
+                <hr class="hr-line" />
+                <div class="additional">
+                    <div class="additional-sub-info">
+                        <img src="./../deafult-clap-logo.svg" height="20px" style="margin-right: 5px;" />
+                        <span style="margin-right: 5px;">123</span>
+                        <img src="./../comment-story.svg" height="25" style="margin: right 5px;" />
+                        <span style="margin-right: 10px;">4</span>
+                        <img src="./../share-logo.svg" height="20px" />
+                    </div>
+                    <div class="nh">
+                        <span class="additional-sun-info-2">See more</span>
+                    </div>
+                </div>
             </div>
         </div>
-
-       
-       
-       
         <div class="item">
-            <img src="./../rtc-homepage.png" width="300px"  class="main-img"/>
-
+            <img src="./../rtc-homepage.png" width="300px" class="main-img" />
             <div class="sub-container">
-            <span class="project-heading">Road To Code </span>
-        <br/>
-            <span class="course-name">Internship cohort program 6.0</span>
-            <p class="project-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo modi quaerat, Libero voluptatum dolorem earum aut?
-            </p>
-
-            <div  class="tech-stack"> 
-                <span class="tech">HTML</span>
-                <span class="tech">CSS</span>
-                <span class="tech">GitHub</span>
-            </div>
-            <div class="project-duration">
-                <div class="project-duration-subinfo"> 
-                    <img src="./../calendar-icon.svg" height="15px" class="calendar-img"/>
-                    <span class="project-duration-info">2024 - Apr 2024</span> 
+                <span class="project-heading">Road To Code </span>
+                <br />
+                <span class="course-name">Internship cohort program 6.0</span>
+                <p class="project-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo modi quaerat, Libero
+                    voluptatum dolorem earum aut?
+                </p>
+                <div class="tech-stack">
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                    <span class="tech">GitHub</span>
                 </div>
-                <div  class="project-duration-subinfo">
-                    <img src="./../vaibhavi hole.png" height="20px"  class="user-profile-img"/>
-                   <span class="project-duration-info">Vaibhavi Hole</span>
+                <div class="project-duration">
+                    <div class="project-duration-subinfo">
+                        <img src="./../calendar-icon.svg" height="15px" class="calendar-img" />
+                        <span class="project-duration-info">2024 - Apr 2024</span>
+                    </div>
+                    <div class="project-duration-subinfo">
+                        <img src="./../vaibhavi hole.png" height="20px" class="user-profile-img" />
+                        <span class="project-duration-info">Vaibhavi Hole</span>
+                    </div>
                 </div>
-            </div>
-
-            <hr class="hr-line"/>
-
-            <div class="additional">
-             <div class="additional-sub-info">
-            <img src="./../deafult-clap-logo.svg"  height="20px" style="margin-right: 5px;"/>
-            <span style="margin-right: 5px;">123</span>
-            
-            <img src="./../comment-story.svg" height="25"  style="margin: right 5px;" />
-          <span style="margin-right: 10px;">4</span>
-
-          <img src="./../share-logo.svg"  height="20px" />
-             </div>
-
-            <div>
-                <span class="additional-sun-info-2">See more</span>
-            </div>
-            </div>
-
+                <hr class="hr-line" />
+                <div class="additional">
+                    <div class="additional-sub-info">
+                        <img src="./../deafult-clap-logo.svg" height="20px" style="margin-right: 5px;" />
+                        <span style="margin-right: 5px;">123</span>
+                        <img src="./../comment-story.svg" height="25" style="margin: right 5px;" />
+                        <span style="margin-right: 10px;">4</span>
+                        <img src="./../share-logo.svg" height="20px" />
+                    </div>
+                    <div>
+                        <span class="additional-sun-info-2">See more</span>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-        
         <div class="item">
-<img src="./../rtc-homepage.png" width="300px"  class="main-img"/>
-
+            <img src="./../rtc-homepage.png" width="300px" class="main-img" />
             <div class="sub-container">
-            <span class="project-heading">Road To Code </span>
-        <br/>
-            <span class="course-name">Internship cohort program 6.0</span>
-            <p class="project-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo modi quaerat, Libero voluptatum dolorem earum aut?
-            </p>
-
-            <div  class="tech-stack"> 
-                <span class="tech">HTML</span>
-                <span class="tech">CSS</span>
-                <span class="tech">GitHub</span>
-            </div>
-            <div class="project-duration">
-                <div class="project-duration-subinfo"> 
-                    <img src="./../calendar-icon.svg" height="15px" class="calendar-img"/>
-                    <span class="project-duration-info">2024 - Apr 2024</span> 
+                <span class="project-heading">Road To Code </span>
+                <br />
+                <span class="course-name">Internship cohort program 6.0</span>
+                <p class="project-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo modi quaerat, Libero
+                    voluptatum dolorem earum aut?
+                </p>
+                <div class="tech-stack">
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                    <span class="tech">GitHub</span>
                 </div>
-                <div  class="project-duration-subinfo">
-                    <img src="./../vaibhavi hole.png" height="20px"  class="user-profile-img"/>
-                   <span class="project-duration-info">Vaibhavi Hole</span>
+                <div class="project-duration">
+                    <div class="project-duration-subinfo">
+                        <img src="./../calendar-icon.svg" height="15px" class="calendar-img" />
+                        <span class="project-duration-info">2024 - Apr 2024</span>
+                    </div>
+                    <div class="project-duration-subinfo">
+                        <img src="./../vaibhavi hole.png" height="20px" class="user-profile-img" />
+                        <span class="project-duration-info">Vaibhavi Hole</span>
+                    </div>
                 </div>
-            </div>
-
-            <hr class="hr-line"/>
-
-            <div class="additional">
-             <div class="additional-sub-info">
-            <img src="./../deafult-clap-logo.svg"  height="20px" style="margin-right: 5px;"/>
-            <span style="margin-right: 5px;">123</span>
-            
-            <img src="./../comment-story.svg" height="25"  style="margin: right 5px;" />
-          <span style="margin-right: 10px;">4</span>
-
-          <img src="./../share-logo.svg"  height="20px" />
-             </div>
-
-            <div>
-                <span class="additional-sun-info-2">See more</span>
-            </div>
-            </div>
-
+                <hr class="hr-line" />
+                <div class="additional">
+                    <div class="additional-sub-info">
+                        <img src="./../deafult-clap-logo.svg" height="20px" style="margin-right: 5px;" />
+                        <span style="margin-right: 5px;">123</span>
+                        <img src="./../comment-story.svg" height="25" style="margin: right 5px;" />
+                        <span style="margin-right: 10px;">4</span>
+                        <img src="./../share-logo.svg" height="20px" />
+                    </div>
+                    <div>
+                        <span class="additional-sun-info-2">See more</span>
+                    </div>
+                </div>
             </div>
         </div>
-
-        
         <div class="item">
-<img src="./../rtc-homepage.png" width="300px"  class="main-img"/>
-
+            <img src="./../rtc-homepage.png" width="300px" class="main-img" />
             <div class="sub-container">
-            <span class="project-heading">Road To Code </span>
-        <br/>
-            <span class="course-name">Internship cohort program 6.0</span>
-            <p class="project-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo modi quaerat, Libero voluptatum dolorem earum aut?
-            </p>
-
-            <div  class="tech-stack"> 
-                <span class="tech">HTML</span>
-                <span class="tech">CSS</span>
-                <span class="tech">GitHub</span>
-            </div>
-            <div class="project-duration">
-                <div class="project-duration-subinfo"> 
-                    <img src="./../calendar-icon.svg" height="15px" class="calendar-img"/>
-                    <span class="project-duration-info">2024 - Apr 2024</span> 
+                <span class="project-heading">Road To Code </span>
+                <br />
+                <span class="course-name">Internship cohort program 6.0</span>
+                <p class="project-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime explicabo modi quaerat, Libero
+                    voluptatum dolorem earum aut?
+                </p>
+                <div class="tech-stack">
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                    <span class="tech">GitHub</span>
                 </div>
-                <div  class="project-duration-subinfo">
-                    <img src="./../vaibhavi hole.png" height="20px"  class="user-profile-img"/>
-                   <span class="project-duration-info">Vaibhavi Hole</span>
+                <div class="project-duration">
+                    <div class="project-duration-subinfo">
+                        <img src="./../calendar-icon.svg" height="15px" class="calendar-img" />
+                        <span class="project-duration-info">2024 - Apr 2024</span>
+                    </div>
+                    <div class="project-duration-subinfo">
+                        <img src="./../vaibhavi hole.png" height="20px" class="user-profile-img" />
+                        <span class="project-duration-info">Vaibhavi Hole</span>
+                    </div>
                 </div>
-            </div>
-
-            <hr class="hr-line"/>
-
-            <div class="additional">
-             <div class="additional-sub-info">
-            <img src="./../deafult-clap-logo.svg"  height="20px" style="margin-right: 5px;"/>
-            <span style="margin-right: 5px;">123</span>
-            
-            <img src="./../comment-story.svg" height="25"  style="margin: right 5px;" />
-          <span style="margin-right: 10px;">4</span>
-
-          <img src="./../share-logo.svg"  height="20px" />
-             </div>
-
-            <div>
-                <span class="additional-sun-info-2">See more</span>
-            </div>
-            </div>
-
+                <hr class="hr-line" />
+                <div class="additional">
+                    <div class="additional-sub-info">
+                        <img src="./../deafult-clap-logo.svg" height="20px" style="margin-right: 5px;" />
+                        <span style="margin-right: 5px;">123</span>
+                        <img src="./../comment-story.svg" height="25" style="margin: right 5px;" />
+                        <span style="margin-right: 10px;">4</span>
+                        <img src="./../share-logo.svg" height="20px" />
+                    </div>
+                    <div>
+                        <span class="additional-sun-info-2">See more</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
